@@ -88,10 +88,16 @@ body {
   margin-top: 12px;
   font-weight: 800;
   font-size: 24px;
+  color: var(--gray-950);
 
   @media (max-width: 1280px) {
     font-size: 20px;
   }
+}
+
+.article-title:hover {
+  color: var(--yellow);
+  cursor: pointer;
 }
 
 .article-description {
